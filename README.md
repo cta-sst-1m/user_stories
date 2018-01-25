@@ -8,17 +8,17 @@ We want to collect stories of users (and developers of course) telling other dev
 
 This is an experiment. So let us think big here, there should be no limit to these stories. You are allowed - yes expected even - to write down any feature that comes to mind. Might be very high level like:
 
-    I want to be able to plot a spectrum, from a bunch of runs. 
+> I want to be able to plot a spectrum, from a bunch of runs. 
   
 Or something low level like:
  
-    The `run_id` seems to be always zero, I'd like it to be some useful number.
+> The `run_id` seems to be always zero, I'd like it to be some useful number.
     
 We are a bit late with these user stories, so there are already a bunch of feature which work, like:
 
-    I want to be able to calculate the dark baseline from a bunch of run files.
-    
-    -> You can, use dark_evaluation.py :-D
+> I want to be able to calculate the dark baseline from a bunch of run files.
+> 
+> -> You can, use dark_evaluation.py :-D
     
 Still if you realize something is already working, but there is no user story for it, please take a minute to write it down.
 
@@ -43,11 +43,11 @@ A user story should strive to explain what is needed. How to implement it is mor
 
 Performance requirements can be included if course. Quantitative requirements are more useful than qualitative requirements, so:
 
-    I want the reader to be fast and not use too much memory.
+> I want the reader to be fast and not use too much memory.
     
 Is a user story, but:
 
-    I want the reader to read 1000 events per second (single thread) from a solid state disk. The memory used per event by the reader should not exceed 10MB. 
+> I want the reader to read 1000 events per second (single thread) from a solid state disk. The memory used per event by the reader should not exceed 10MB. 
     
 Might be more useful for developers.
 
